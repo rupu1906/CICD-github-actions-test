@@ -2,7 +2,7 @@ name: Actions workflow
 
 on:
   repository_dispatch:
-    types: [buiild]
+    types: [build]
     
   # schedule:
   #   - cron: "0/5 * * * *"
