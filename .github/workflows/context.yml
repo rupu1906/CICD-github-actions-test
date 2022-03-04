@@ -26,7 +26,7 @@ jobs:
 
       - name: Dump Startergy context
         env: 
-          STARTERGY_CONTEXT: ${{ toJson(stratergy)}}
+          STARTERGY_CONTEXT: ${{ toJson(strategy)}}
         run: echo "$STARTERGY_CONTEXT"
 
       - name: Dump MAtrix context
