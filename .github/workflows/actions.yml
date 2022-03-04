@@ -1,9 +1,11 @@
 name: Actions workflow
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    
+  # push:
+  #   branches:
+  #     - master
   # repository_dispatch:
   #   types: [build]
     
